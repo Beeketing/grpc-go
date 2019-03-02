@@ -26,11 +26,11 @@ import (
 	"log"
 	"net"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	ecpb "google.golang.org/grpc/examples/features/proto/echo"
-	hwpb "google.golang.org/grpc/examples/helloworld/helloworld"
-	"google.golang.org/grpc/status"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
+	ecpb "github.com/Beeketing/grpc-go/examples/features/proto/echo"
+	hwpb "github.com/Beeketing/grpc-go/examples/helloworld/helloworld"
+	"github.com/Beeketing/grpc-go/status"
 )
 
 var port = flag.Int("port", 50051, "the port to serve on")

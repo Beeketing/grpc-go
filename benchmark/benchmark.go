@@ -33,13 +33,13 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
-	testpb "google.golang.org/grpc/benchmark/grpc_testing"
-	"google.golang.org/grpc/benchmark/latency"
-	"google.golang.org/grpc/benchmark/stats"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/status"
+	"github.com/Beeketing/grpc-go"
+	testpb "github.com/Beeketing/grpc-go/benchmark/grpc_testing"
+	"github.com/Beeketing/grpc-go/benchmark/latency"
+	"github.com/Beeketing/grpc-go/benchmark/stats"
+	"github.com/Beeketing/grpc-go/codes"
+	"github.com/Beeketing/grpc-go/grpclog"
+	"github.com/Beeketing/grpc-go/status"
 )
 
 // AddOne add 1 to the features slice

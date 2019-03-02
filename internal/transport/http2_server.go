@@ -31,21 +31,21 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/Beeketing/protobuf/proto"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/peer"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github.com/Beeketing/grpc-go/codes"
+	"github.com/Beeketing/grpc-go/credentials"
+	"github.com/Beeketing/grpc-go/grpclog"
+	"github.com/Beeketing/grpc-go/internal/channelz"
+	"github.com/Beeketing/grpc-go/internal/grpcrand"
+	"github.com/Beeketing/grpc-go/keepalive"
+	"github.com/Beeketing/grpc-go/metadata"
+	"github.com/Beeketing/grpc-go/peer"
+	"github.com/Beeketing/grpc-go/stats"
+	"github.com/Beeketing/grpc-go/status"
+	"github.com/Beeketing/grpc-go/tap"
 )
 
 var (

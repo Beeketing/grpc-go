@@ -29,17 +29,17 @@ import (
 	"time"
 
 	"golang.org/x/net/http2"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/envconfig"
-	"google.golang.org/grpc/internal/transport"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/naming"
-	"google.golang.org/grpc/resolver"
-	"google.golang.org/grpc/resolver/manual"
-	_ "google.golang.org/grpc/resolver/passthrough"
-	"google.golang.org/grpc/testdata"
+	"github.com/Beeketing/grpc-go/connectivity"
+	"github.com/Beeketing/grpc-go/credentials"
+	"github.com/Beeketing/grpc-go/internal/backoff"
+	"github.com/Beeketing/grpc-go/internal/envconfig"
+	"github.com/Beeketing/grpc-go/internal/transport"
+	"github.com/Beeketing/grpc-go/keepalive"
+	"github.com/Beeketing/grpc-go/naming"
+	"github.com/Beeketing/grpc-go/resolver"
+	"github.com/Beeketing/grpc-go/resolver/manual"
+	_ "github.com/Beeketing/grpc-go/resolver/passthrough"
+	"github.com/Beeketing/grpc-go/testdata"
 )
 
 var (

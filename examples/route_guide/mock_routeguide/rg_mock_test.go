@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/mock/gomock"
-	"github.com/golang/protobuf/proto"
-	rgmock "google.golang.org/grpc/examples/route_guide/mock_routeguide"
-	rgpb "google.golang.org/grpc/examples/route_guide/routeguide"
+	"github.com/Beeketing/mock/gomock"
+	"github.com/Beeketing/protobuf/proto"
+	rgmock "github.com/Beeketing/grpc-go/examples/route_guide/mock_routeguide"
+	rgpb "github.com/Beeketing/grpc-go/examples/route_guide/routeguide"
 )
 
 var msg = &rgpb.RouteNote{

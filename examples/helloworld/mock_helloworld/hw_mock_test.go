@@ -24,10 +24,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/golang/mock/gomock"
-	"github.com/golang/protobuf/proto"
-	helloworld "google.golang.org/grpc/examples/helloworld/helloworld"
-	hwmock "google.golang.org/grpc/examples/helloworld/mock_helloworld"
+	"github.com/Beeketing/mock/gomock"
+	"github.com/Beeketing/protobuf/proto"
+	helloworld "github.com/Beeketing/grpc-go/examples/helloworld/helloworld"
+	hwmock "github.com/Beeketing/grpc-go/examples/helloworld/mock_helloworld"
 )
 
 // rpcMsg implements the gomock.Matcher interface

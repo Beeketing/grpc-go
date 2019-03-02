@@ -37,14 +37,14 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/testdata"
+	"github.com/Beeketing/grpc-go/credentials"
+	"github.com/Beeketing/grpc-go/testdata"
 
-	"github.com/golang/protobuf/proto"
+	"github.com/Beeketing/protobuf/proto"
 
-	pb "google.golang.org/grpc/examples/route_guide/routeguide"
+	pb "github.com/Beeketing/grpc-go/examples/route_guide/routeguide"
 )
 
 var (

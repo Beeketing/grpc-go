@@ -27,10 +27,10 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc"
+	"github.com/Beeketing/grpc-go"
 
-	"google.golang.org/grpc/internal/envconfig"
-	testpb "google.golang.org/grpc/test/grpc_testing"
+	"github.com/Beeketing/grpc-go/internal/envconfig"
+	testpb "github.com/Beeketing/grpc-go/test/grpc_testing"
 )
 
 type delayListener struct {

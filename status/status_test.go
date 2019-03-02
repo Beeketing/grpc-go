@@ -25,14 +25,14 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	"github.com/golang/protobuf/ptypes"
-	apb "github.com/golang/protobuf/ptypes/any"
-	dpb "github.com/golang/protobuf/ptypes/duration"
-	cpb "google.golang.org/genproto/googleapis/rpc/code"
-	epb "google.golang.org/genproto/googleapis/rpc/errdetails"
-	spb "google.golang.org/genproto/googleapis/rpc/status"
-	"google.golang.org/grpc/codes"
+	"github.com/Beeketing/protobuf/proto"
+	"github.com/Beeketing/protobuf/ptypes"
+	apb "github.com/Beeketing/protobuf/ptypes/any"
+	dpb "github.com/Beeketing/protobuf/ptypes/duration"
+	cpb "github.com/Beeketing/genproto/googleapis/rpc/code"
+	epb "github.com/Beeketing/genproto/googleapis/rpc/errdetails"
+	spb "github.com/Beeketing/genproto/googleapis/rpc/status"
+	"github.com/Beeketing/grpc-go/codes"
 )
 
 func TestErrorsWithSameParameters(t *testing.T) {

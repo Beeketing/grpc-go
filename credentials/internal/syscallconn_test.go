@@ -25,7 +25,7 @@ import (
 	"syscall"
 	"testing"
 
-	"google.golang.org/grpc/credentials/internal"
+	"github.com/Beeketing/grpc-go/credentials/internal"
 )
 
 type syscallConn struct {

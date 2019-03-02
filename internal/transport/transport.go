@@ -30,13 +30,13 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/metadata"
-	"google.golang.org/grpc/stats"
-	"google.golang.org/grpc/status"
-	"google.golang.org/grpc/tap"
+	"github.com/Beeketing/grpc-go/codes"
+	"github.com/Beeketing/grpc-go/credentials"
+	"github.com/Beeketing/grpc-go/keepalive"
+	"github.com/Beeketing/grpc-go/metadata"
+	"github.com/Beeketing/grpc-go/stats"
+	"github.com/Beeketing/grpc-go/status"
+	"github.com/Beeketing/grpc-go/tap"
 )
 
 // recvMsg represents the received msg from the transport. All transport

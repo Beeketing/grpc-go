@@ -22,7 +22,7 @@ import (
 	"testing"
 	"time"
 
-	"google.golang.org/grpc/internal/testutils"
+	"github.com/Beeketing/grpc-go/internal/testutils"
 )
 
 func TestPipeListener(t *testing.T) {

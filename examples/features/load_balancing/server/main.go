@@ -26,10 +26,10 @@ import (
 	"net"
 	"sync"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	ecpb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/status"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
+	ecpb "github.com/Beeketing/grpc-go/examples/features/proto/echo"
+	"github.com/Beeketing/grpc-go/status"
 )
 
 var (

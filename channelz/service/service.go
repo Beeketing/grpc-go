@@ -26,17 +26,17 @@ import (
 	"net"
 	"time"
 
-	"github.com/golang/protobuf/ptypes"
-	durpb "github.com/golang/protobuf/ptypes/duration"
-	wrpb "github.com/golang/protobuf/ptypes/wrappers"
-	"google.golang.org/grpc"
-	channelzgrpc "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	channelzpb "google.golang.org/grpc/channelz/grpc_channelz_v1"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/credentials"
-	"google.golang.org/grpc/internal/channelz"
-	"google.golang.org/grpc/status"
+	"github.com/Beeketing/protobuf/ptypes"
+	durpb "github.com/Beeketing/protobuf/ptypes/duration"
+	wrpb "github.com/Beeketing/protobuf/ptypes/wrappers"
+	"github.com/Beeketing/grpc-go"
+	channelzgrpc "github.com/Beeketing/grpc-go/channelz/grpc_channelz_v1"
+	channelzpb "github.com/Beeketing/grpc-go/channelz/grpc_channelz_v1"
+	"github.com/Beeketing/grpc-go/codes"
+	"github.com/Beeketing/grpc-go/connectivity"
+	"github.com/Beeketing/grpc-go/credentials"
+	"github.com/Beeketing/grpc-go/internal/channelz"
+	"github.com/Beeketing/grpc-go/status"
 )
 
 func init() {

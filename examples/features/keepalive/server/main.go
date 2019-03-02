@@ -27,11 +27,11 @@ import (
 	"net"
 	"time"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/codes"
-	pb "google.golang.org/grpc/examples/features/proto/echo"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/status"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/codes"
+	pb "github.com/Beeketing/grpc-go/examples/features/proto/echo"
+	"github.com/Beeketing/grpc-go/keepalive"
+	"github.com/Beeketing/grpc-go/status"
 )
 
 var port = flag.Int("port", 50052, "port number")

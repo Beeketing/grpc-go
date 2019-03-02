@@ -39,11 +39,11 @@ import (
 
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	"google.golang.org/grpc/codes"
-	"google.golang.org/grpc/internal/leakcheck"
-	"google.golang.org/grpc/internal/syscall"
-	"google.golang.org/grpc/keepalive"
-	"google.golang.org/grpc/status"
+	"github.com/Beeketing/grpc-go/codes"
+	"github.com/Beeketing/grpc-go/internal/leakcheck"
+	"github.com/Beeketing/grpc-go/internal/syscall"
+	"github.com/Beeketing/grpc-go/keepalive"
+	"github.com/Beeketing/grpc-go/status"
 )
 
 type server struct {

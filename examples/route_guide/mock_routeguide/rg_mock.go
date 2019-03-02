@@ -4,11 +4,11 @@
 package mock_routeguide
 
 import (
-	gomock "github.com/golang/mock/gomock"
+	gomock "github.com/Beeketing/mock/gomock"
 	context "golang.org/x/net/context"
-	grpc "google.golang.org/grpc"
-	routeguide "google.golang.org/grpc/examples/route_guide/routeguide"
-	metadata "google.golang.org/grpc/metadata"
+	grpc "github.com/Beeketing/grpc-go"
+	routeguide "github.com/Beeketing/grpc-go/examples/route_guide/routeguide"
+	metadata "github.com/Beeketing/grpc-go/metadata"
 )
 
 // Mock of RouteGuideClient interface

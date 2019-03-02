@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/golang/protobuf/proto"
-	altspb "google.golang.org/grpc/credentials/alts/internal/proto/grpc_gcp"
+	"github.com/Beeketing/protobuf/proto"
+	altspb "github.com/Beeketing/grpc-go/credentials/alts/internal/proto/grpc_gcp"
 )
 
 func TestInfoServerName(t *testing.T) {

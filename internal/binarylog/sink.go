@@ -27,9 +27,9 @@ import (
 	"sync"
 	"time"
 
-	"github.com/golang/protobuf/proto"
-	pb "google.golang.org/grpc/binarylog/grpc_binarylog_v1"
-	"google.golang.org/grpc/grpclog"
+	"github.com/Beeketing/protobuf/proto"
+	pb "github.com/Beeketing/grpc-go/binarylog/grpc_binarylog_v1"
+	"github.com/Beeketing/grpc-go/grpclog"
 )
 
 var (

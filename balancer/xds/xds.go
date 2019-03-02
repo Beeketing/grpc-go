@@ -15,4 +15,4 @@
  */
 
 // Package xds implements xds balancer.
-package xds // import "google.golang.org/grpc/balancer/xds"
+package xds // import "github.com/Beeketing/grpc-go/balancer/xds"

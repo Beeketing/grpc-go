@@ -32,10 +32,10 @@ import (
 	"sync"
 	"time"
 
-	"google.golang.org/grpc/grpclog"
-	"google.golang.org/grpc/internal/backoff"
-	"google.golang.org/grpc/internal/grpcrand"
-	"google.golang.org/grpc/resolver"
+	"github.com/Beeketing/grpc-go/grpclog"
+	"github.com/Beeketing/grpc-go/internal/backoff"
+	"github.com/Beeketing/grpc-go/internal/grpcrand"
+	"github.com/Beeketing/grpc-go/resolver"
 )
 
 func init() {

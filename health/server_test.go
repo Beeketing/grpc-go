@@ -21,9 +21,9 @@ package health_test
 import (
 	"testing"
 
-	"google.golang.org/grpc"
-	"google.golang.org/grpc/health"
-	healthgrpc "google.golang.org/grpc/health/grpc_health_v1"
+	"github.com/Beeketing/grpc-go"
+	"github.com/Beeketing/grpc-go/health"
+	healthgrpc "github.com/Beeketing/grpc-go/health/grpc_health_v1"
 )
 
 // Make sure the service implementation complies with the proto definition.

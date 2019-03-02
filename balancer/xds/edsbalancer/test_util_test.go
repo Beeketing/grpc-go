@@ -20,9 +20,9 @@ import (
 	"fmt"
 	"testing"
 
-	"google.golang.org/grpc/balancer"
-	"google.golang.org/grpc/connectivity"
-	"google.golang.org/grpc/resolver"
+	"github.com/Beeketing/grpc-go/balancer"
+	"github.com/Beeketing/grpc-go/connectivity"
+	"github.com/Beeketing/grpc-go/resolver"
 )
 
 var (
