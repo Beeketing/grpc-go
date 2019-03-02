@@ -23,7 +23,7 @@ import (
 	"reflect"
 	"testing"
 
-	cpb "github.com/Beeketing/genproto/googleapis/rpc/code"
+	cpb "github.com/Beeketing/go-genproto/googleapis/rpc/code"
 )
 
 func TestUnmarshalJSON(t *testing.T) {

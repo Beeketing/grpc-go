@@ -33,7 +33,7 @@ import (
 
 	"github.com/Beeketing/protobuf/proto"
 	dpb "github.com/Beeketing/protobuf/ptypes/duration"
-	epb "github.com/Beeketing/genproto/googleapis/rpc/errdetails"
+	epb "github.com/Beeketing/go-genproto/googleapis/rpc/errdetails"
 	"github.com/Beeketing/grpc-go/codes"
 	"github.com/Beeketing/grpc-go/metadata"
 	"github.com/Beeketing/grpc-go/status"

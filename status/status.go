@@ -34,7 +34,7 @@ import (
 
 	"github.com/Beeketing/protobuf/proto"
 	"github.com/Beeketing/protobuf/ptypes"
-	spb "github.com/Beeketing/genproto/googleapis/rpc/status"
+	spb "github.com/Beeketing/go-genproto/googleapis/rpc/status"
 	"github.com/Beeketing/grpc-go/codes"
 )
 

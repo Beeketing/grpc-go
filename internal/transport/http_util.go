@@ -35,7 +35,7 @@ import (
 	"github.com/Beeketing/protobuf/proto"
 	"golang.org/x/net/http2"
 	"golang.org/x/net/http2/hpack"
-	spb "github.com/Beeketing/genproto/googleapis/rpc/status"
+	spb "github.com/Beeketing/go-genproto/googleapis/rpc/status"
 	"github.com/Beeketing/grpc-go/codes"
 	"github.com/Beeketing/grpc-go/status"
 )

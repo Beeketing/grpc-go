@@ -26,7 +26,7 @@ import (
 	"os"
 	"time"
 
-	epb "github.com/Beeketing/genproto/googleapis/rpc/errdetails"
+	epb "github.com/Beeketing/go-genproto/googleapis/rpc/errdetails"
 	"github.com/Beeketing/grpc-go"
 	pb "github.com/Beeketing/grpc-go/examples/helloworld/helloworld"
 	"github.com/Beeketing/grpc-go/status"

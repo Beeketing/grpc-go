@@ -15,6 +15,6 @@ require (
 	golang.org/x/text v0.3.0 // indirect
 	golang.org/x/tools v0.0.0-20190114222345-bf090417da8b
 	github.com/Beeketing/appengine v1.1.0 // indirect
-	github.com/Beeketing/genproto v0.0.0-20180817151627-c66870c02cf8
+	github.com/Beeketing/go-genproto v0.0.0-20180817151627-c66870c02cf8
 	honnef.co/go/tools v0.0.0-20190102054323-c2f93a96b099
 )

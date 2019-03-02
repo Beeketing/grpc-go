@@ -29,9 +29,9 @@ import (
 	"github.com/Beeketing/protobuf/ptypes"
 	apb "github.com/Beeketing/protobuf/ptypes/any"
 	dpb "github.com/Beeketing/protobuf/ptypes/duration"
-	cpb "github.com/Beeketing/genproto/googleapis/rpc/code"
-	epb "github.com/Beeketing/genproto/googleapis/rpc/errdetails"
-	spb "github.com/Beeketing/genproto/googleapis/rpc/status"
+	cpb "github.com/Beeketing/go-genproto/googleapis/rpc/code"
+	epb "github.com/Beeketing/go-genproto/googleapis/rpc/errdetails"
+	spb "github.com/Beeketing/go-genproto/googleapis/rpc/status"
 	"github.com/Beeketing/grpc-go/codes"
 )
 

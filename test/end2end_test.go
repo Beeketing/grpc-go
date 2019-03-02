@@ -45,7 +45,7 @@ import (
 	"github.com/Beeketing/protobuf/proto"
 	anypb "github.com/Beeketing/protobuf/ptypes/any"
 	"golang.org/x/net/http2"
-	spb "github.com/Beeketing/genproto/googleapis/rpc/status"
+	spb "github.com/Beeketing/go-genproto/googleapis/rpc/status"
 	"github.com/Beeketing/grpc-go"
 	"github.com/Beeketing/grpc-go/balancer/roundrobin"
 	"github.com/Beeketing/grpc-go/codes"
